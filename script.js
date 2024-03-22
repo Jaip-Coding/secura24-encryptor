@@ -46,3 +46,15 @@ function encrypt() {
     
     document.getElementById('resultOutput').innerText = encrypted_result + '\nKey: ' + key;
 }
+
+function darkMode() {
+  document.body.classList.toggle('darkmode');
+  if (darkModeBool) {
+    darkModeBool = false;
+    document.getElementById("ModeToggle").innerText = "Dark Mode";
+  }
+  else {
+    darkModeBool = true;
+    document.getElementById("ModeToggle").innerText = "Light Mode";
+  }
+}
