@@ -34,7 +34,7 @@ function encrypt() {
     }
     key += sort_key;
     
-    let user_input = document.getElementById('userInput');
+    let user_input = document.getElementById('userInput').innerText;
     let encrypted_result = '';
     
     for (let char of user_input) {
