@@ -50,6 +50,7 @@ body {
   margin-top: 10px;
   min-height: 300px;
   font-family: monospace;
+  word-wrap: break-word;
 }
 
 .output {
