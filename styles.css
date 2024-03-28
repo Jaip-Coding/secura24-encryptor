@@ -65,11 +65,9 @@ body {
   background-color: #f7f7f7;
   border: 1px solid #ccc;
   padding: 10px;
-  white-space: pre-wrap;
   margin-top: 10px;
   min-height: 10%;
   font-family: monospace;
-  word-wrap: break-word;
 }
 
 .Links {
