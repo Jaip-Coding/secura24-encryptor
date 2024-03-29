@@ -69,7 +69,6 @@ body {
   min-height: 10%;
   font-family: monospace;
   overflow-x: scroll;
-  white-space: pre-wrap;
 }
 
 .Links {
@@ -135,7 +134,6 @@ footer {
   border: #272727;
   color: #f7f7f7;
   overflow-x: scroll;
-  white-space: pre-wrap;
 }
 
 .darkmode .Links button {
