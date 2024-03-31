@@ -67,7 +67,6 @@ body {
   margin-top: 10px;
   background-color: #f7f7f7;
   border: 1px solid #ccc;
-  white-space: pre-wrap;
   min-height: 10%;
   font-family: monospace;
   overflow-x: scroll;
