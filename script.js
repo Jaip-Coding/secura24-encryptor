@@ -44,7 +44,8 @@ function encrypt() {
         }
     }
     
-    document.getElementById('resultOutput').innerText = encrypted_result + '\n\nKey: ' + key;
+    document.getElementById('resultOutput').innerText = encrypted_result;
+    document.getElementById('keyOutput').innerText = 'Key: ' + key;
 }
 
 function darkMode() {
