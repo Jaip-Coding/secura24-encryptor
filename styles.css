@@ -146,3 +146,27 @@ footer {
   background-color: #464646;
   color: #f7f7f7;
 }
+
+.copy {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 5px 10px;
+  background-color: #ebe9e9;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.darkmode .copy {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  padding: 5px 10px;
+  background-color: #464646;
+  color: white;
+  border: 1px solid #464646;
+  border-radius: 5px;
+  cursor: pointer;
+}
