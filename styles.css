@@ -149,7 +149,7 @@ footer {
 }
 
 .copy {
-  position: fixed;
+  position: absolute;
   top: 2px;
   right: 2px;
   padding: 5px 10px;
@@ -161,7 +161,7 @@ footer {
 }
 
 .darkmode .copy {
-  position: fixed;
+  position: absolute;
   top: 2px;
   right: 2px;
   padding: 5px 10px;
