@@ -6,6 +6,9 @@ function sortChars(list, char1, char2) {
     return list;
 }
 
+let copyButton1 = document.getElementById("copyButton1");
+let copyButton2 = document.getElementById("copyButton2");
+
 function encrypt() {
     const possible_chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!"§$%&/()=?+*#-_.:,;<>@ ';
     const key_chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"§$%&/()=?+*#-_.:,;<>@';
@@ -46,6 +49,8 @@ function encrypt() {
     
     document.getElementById('resultOutput').innerText = encrypted_result;
     document.getElementById('keyOutput').innerText = 'Key: ' + key
+    copyButton1.style.opacity = 1;
+    copyButton2.style.opacity = 1;
 }
 
 function darkMode() {
