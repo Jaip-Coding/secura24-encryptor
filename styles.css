@@ -158,6 +158,8 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .darkmode .copyButton1 {
@@ -170,6 +172,8 @@ footer {
   border: 1px solid #464646;
   border-radius: 5px;
   cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .copyButton2 {
