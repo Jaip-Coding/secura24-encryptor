@@ -45,17 +45,7 @@ function encrypt() {
     }
     
     document.getElementById('resultOutput').innerText = encrypted_result;
-    document.getElementById('keyOutput').innerText = 'Key: ' + key;
-    const button1 = document.createElement('button');
-    button1.className = 'copy';
-    button1.textContent = 'Copy';
-    document.getElementById("resultOutput").appendChild(button1);
-    button1.addEventListener('click', copyResult);
-    const button2 = document.createElement('button');
-    button2.className = 'copy';
-    button2.textContent = 'Copy';
-    document.getElementById("keyOutput").appendChild(button2);
-    button2.addEventListener('click', copyKey);
+    document.getElementById('keyOutput').innerText = 'Key: ' + key
 }
 
 function darkMode() {
@@ -71,9 +61,8 @@ function darkMode() {
 }
 
 function copyResult() {
-  const getText = document.getElementById("resultOutput").innerText;
+  const copyText = document.getElementById("resultOutput").innerText;
   const textArea = document.createElement('textarea');
-  const copyText = getText.slice(0, -4);
   textArea.textContent = copyText;
   document.body.append(textArea);
   textArea.select();
@@ -84,7 +73,7 @@ function copyResult() {
 function copyKey() {
   const getText = document.getElementById("keyOutput").innerText;
   const textArea = document.createElement('textarea');
-  const copyText = getText.slice(5, -4);
+  const copyText = getText.slice(5, 0);
   textArea.textContent = copyText;
   document.body.append(textArea);
   textArea.select();
