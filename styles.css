@@ -59,6 +59,7 @@ body {
   padding: 1% 5%;
   /*width: 80%;*/
   /*max-width: 800px;*/
+  position: relative;
 }
 
 .output pre {
