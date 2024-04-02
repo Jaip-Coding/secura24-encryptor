@@ -151,7 +151,7 @@ footer {
 
 .copyButton1 {
   position: absolute;
-  top: calc(14 + 2px);
+  top: calc(14% + 2px);
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #ebe9e9;
@@ -166,7 +166,7 @@ footer {
 
 .darkmode .copyButton1 {
   position: absolute;
-  top: calc(14 + 2px);
+  top: calc(14% + 2px);
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #464646;
@@ -181,7 +181,7 @@ footer {
 
 .copyButton2 {
   position: absolute;
-  top: calc(63 + 2px);
+  top: calc(53% + 2px);
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #ebe9e9;
@@ -196,7 +196,7 @@ footer {
 
 .darkmode .copyButton2 {
   position: absolute;
-  top: calc(63 + 2px);
+  top: calc(53% + 2px);
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #464646;
