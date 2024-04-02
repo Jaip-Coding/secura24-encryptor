@@ -174,7 +174,7 @@ footer {
 
 .copyButton2 {
   position: absolute;
-  top: 2px;
+  top: 68px;
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #ebe9e9;
@@ -186,7 +186,7 @@ footer {
 
 .darkmode .copyButton2 {
   position: absolute;
-  top: 2px;
+  top: 68px;
   right: calc(5% + 2px);
   padding: 5px 10px;
   background-color: #464646;
