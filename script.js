@@ -35,7 +35,6 @@ function encrypt() {
     for (let item of key_list) {
         key += item + key_chars[Math.floor(Math.random() * key_chars.length)];
     }
-    
     key += sort_key;
     
     let user_input = document.getElementById('userInput').innerText;
