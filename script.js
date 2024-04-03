@@ -79,7 +79,7 @@ function copyResult() {
 function copyKey() {
   const getText = document.getElementById("keyOutput").innerText;
   const textArea = document.createElement('textarea');
-  const copyText = getText.slice(6);
+  const copyText = getText.slice(5);
   textArea.textContent = copyText;
   document.body.append(textArea);
   textArea.select();
