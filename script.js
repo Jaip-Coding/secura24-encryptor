@@ -76,6 +76,7 @@ function copyResult() {
 }
 
 function copyKey() {
+  alert("Test");
   const getText = document.getElementById("keyOutput").innerText;
   const textArea = document.createElement('textarea');
   const copyText = getText.slice(5, 0);
