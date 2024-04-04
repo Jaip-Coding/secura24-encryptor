@@ -25,7 +25,9 @@ function encrypt() {
         chars_to_use = chars_to_use.slice(0, random_char) + chars_to_use.slice(random_char + 1);
         key_list.push(random_char.toString());
     }
-    
+
+    alert(key_list);
+
     let sort_number = 0;
     while (sort_number + sort_key < key_list.length) {
         key_list = sortChars(key_list, sort_number, sort_number + sort_key);
@@ -48,7 +50,7 @@ function encrypt() {
     }
     
     document.getElementById('resultOutput').innerText = encrypted_result;
-    document.getElementById('keyOutput').innerText = 'Key: ' + key
+    document.getElementById('keyOutput').innerText = 'Key: ' + key;
     copyButton1.style.opacity = 1;
     copyButton2.style.opacity = 1;
 }
