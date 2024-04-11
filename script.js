@@ -47,7 +47,7 @@ function encrypt() {
         }
     }
     
-    document.getElementById('resultOutput').innerText = encrypted_result;
+    document.getElementById('resultOutput').innerText = '' + encrypted_result;
     document.getElementById('keyOutput').innerText = 'Key: ' + key;
     copyButton1.style.opacity = 1;
     copyButton2.style.opacity = 1;
