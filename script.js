@@ -46,6 +46,10 @@ function encrypt() {
             encrypted_result += encrypted_chars[char_index];
         }
     }
+
+    if (user_input.includes('\\n')) {
+        encrypted_result = encrypted_result.slice(-1);
+    }
     
     document.getElementById('resultOutput').innerText = '' + encrypted_result;
     document.getElementById('keyOutput').innerText = 'Key: ' + key;
