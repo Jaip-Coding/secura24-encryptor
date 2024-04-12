@@ -47,7 +47,7 @@ function encrypt() {
         }
     }
 
-    if (user_input.includes('\\n')) {
+    if (user_input.includes('\n')) {
         encrypted_result = encrypted_result.slice(-1);
     }
     
