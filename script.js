@@ -48,7 +48,7 @@ function encrypt() {
     }
 
     if (user_input.includes('\n')) {
-        encrypted_result = encrypted_result.slice(-1);
+        encrypted_result = encrypted_result.slice(0, -1);
     }
     
     document.getElementById('resultOutput').innerText = '' + encrypted_result;
